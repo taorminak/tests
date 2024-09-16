@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Testing</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -16,8 +16,52 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>JavaScript testing</h2>
+					<section>
+						<img width="800" data-src="./assets/images/right_bicep.png">
+					</section>
+					<section><img width="800" data-src="./assets/images/code_js.png"></section>
+					<section>
+						<div style="font-size: 18px;">describe(name, fn) creates a block that groups together several related tests.</div>
+						<div style="font-size: 18px;">beforeEach(fn, timeout) runs a function before each of the tests in this file runs.</div>
+						<img width="600" data-src="./assets/images/js_start.png">
+					</section>
+					<section>
+<div style="font-size: 18px;">Arrange, Act, Assert</div>
+						<img width="800" data-src="./assets/images/js.png">
+					</section>
+				</section>
+				<section>
+					<h2>Test Doubles</h2>
+					<section><img width="800" data-src="./assets/images/event_reminder_code.png"></section>
+					<section>
+						<div style="font-size: 18px;">Mock functions also known as "spies".</div>
+						<div style="font-size: 18px;">jest.fn() creates a completely new mock function, jest.spyOn() spyes on an existing method.</div>
+						<img width="800" data-src="./assets/images/event_reminder_start.png">
+					</section>
+					<section>
+<div style="font-size: 18px;"> mock.calls contains the arguments of each call made to a mocked function</div>
+						<img width="600" data-src="./assets/images/event_reminder_test.png">
+					</section>
+				</section>
+				<section>
+					<h2>Frontend Testing</h2>
+					<section><img width="800" data-src="./assets/images/Frontend_code.png"></section>
+					<section>
+						<div style="font-size: 18px;">mount() creates a Wrapper that contains the mounted and rendered Vue component.</div>
+						<div style="font-size: 18px;">Props return Wrapper vm props object.</div>
+						<img width="900" data-src="./assets/images/Frontend_start.png">
+					</section>
+					<section>
+<div style="font-size: 18px;">text() returns text content of Wrapper.</div>
+						<img width="900" data-src="./assets/images/Frontend_test.png">
+					</section>
+				</section>
+				<section>
+					<h1>TEST</h1>
+					<img width="700" data-src="./assets/images/test.png">
+				</section>
 			</div>
 		</div>
 
